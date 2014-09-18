@@ -22,6 +22,7 @@
 		0DFEFDD2198BB0C800C7744A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFEFDB1198BB0C800C7744A /* UIKit.framework */; };
 		0DFEFDDA198BB0C800C7744A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DFEFDD8198BB0C800C7744A /* InfoPlist.strings */; };
 		0DFEFDDC198BB0C800C7744A /* TestingLocationNotRunningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFEFDDB198BB0C800C7744A /* TestingLocationNotRunningTests.m */; };
+		0DFEFDE6198BB10200C7744A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DFEFDE5198BB10200C7744A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0DFEFDD7198BB0C800C7744A /* TestingLocationNotRunningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestingLocationNotRunningTests-Info.plist"; sourceTree = "<group>"; };
 		0DFEFDD9198BB0C800C7744A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0DFEFDDB198BB0C800C7744A /* TestingLocationNotRunningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingLocationNotRunningTests.m; sourceTree = "<group>"; };
+		0DFEFDE5198BB10200C7744A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFEFDE6198BB10200C7744A /* CoreLocation.framework in Frameworks */,
 				0DFEFDB0198BB0C800C7744A /* CoreGraphics.framework in Frameworks */,
 				0DFEFDB2198BB0C800C7744A /* UIKit.framework in Frameworks */,
 				0DFEFDAE198BB0C800C7744A /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		0DFEFDAC198BB0C800C7744A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DFEFDE5198BB10200C7744A /* CoreLocation.framework */,
 				0DFEFDAD198BB0C800C7744A /* Foundation.framework */,
 				0DFEFDAF198BB0C800C7744A /* CoreGraphics.framework */,
 				0DFEFDB1198BB0C800C7744A /* UIKit.framework */,
